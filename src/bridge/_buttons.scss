@@ -6,8 +6,8 @@
 //
 
 .btn {
-  border-radius: ($spacer * 3);
-  padding: map-get($spacers, 3) map-get($spacers, 5);
+  border-radius: ($spacer * 1.5);
+  padding: map-get($spacers, 2) map-get($spacers, 4);
   border-width: map-get($spacers, 1);
 
   &:disabled{
@@ -16,10 +16,34 @@
 }
 
 .btn-sm {
-  border-radius: map-get($spacers, 4);
-  padding: map-get($spacers, 2) map-get($spacers, 4);
+  border-radius: $spacer;
+  padding: map-get($spacers, 1) map-get($spacers, 3);
 }
 
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    &:hover {
+      background-color: lighten($value, 10%);
+      border-color: lighten($value, 10%);
+    }
+
+    &:active,
+    &.active {
+      background-color: darken($value, 10%);
+      border-color: darken($value, 10%);
+    }
+
+    &:focus,
+    &.focus {
+      border-color: darken($value, 10%);
+      box-shadow: none;
+    }
+
+    &:not(:disabled):not(.disabled):active:focus {
+      box-shadow: none;
+    }
+  }
+}
 
 .btn-plain {
   &,
