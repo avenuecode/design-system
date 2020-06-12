@@ -9,6 +9,6 @@
   "main": "src/index.scss",
   "version": "2.0.1",
   "dependencies": {
-    "bootstrap": "4.1.3"
+    "bootstrap": "4.3.1"
   }
 }
