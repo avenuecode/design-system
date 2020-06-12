@@ -82,6 +82,12 @@ $brand-pure-gray: #eeeeee !default;
 $brand-pure-gray-dark: #9e9e9e !default;
 $brand-pure-gray-darker: #757575 !default;
 
+$urban-gray-lighter: #f3f3f3;
+$urban-gray-light: #e4e4e4;
+$urban-gray-base: #c1c1c1;
+$urban-gray-dark: #8a8a8a;
+$urban-gray-darker: #464646;
+
 $primary: $brand-blue !default;
 $secondary: $brand-gray-light !default;
 $success: $brand-green !default;
@@ -146,6 +152,11 @@ $colors: map-merge((
   "pure-gray": $brand-pure-gray,
   "pure-gray-dark": $brand-pure-gray-dark,
   "pure-gray-darker": $brand-pure-gray-darker,
+  "$urban-gray-lighter": $urban-gray-lighter,
+  "$urban-gray-light": $urban-gray-light,
+  "$urban-gray": $urban-gray-base,
+  "$urban-gray-dark": $urban-gray-dark,
+  "$urban-gray-darker": $urban-gray-darker,
   "white": $brand-white,
   "black": $brand-black
 ), $colors);
