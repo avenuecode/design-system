@@ -48,4 +48,59 @@
     background-color: transparent;
     border-color: transparent;
   }
+
+  &-engage {
+  
+      .nav-link {
+        display: flex;
+  
+        padding: 8px;
+        justify-content: center;
+  
+        font-size: 16px;
+        text-transform: uppercase;
+
+        color: $brand-gray-darker;
+  
+        border-bottom: none;
+  
+        &.active {
+          color: $blue;
+          font-weight: bold;
+  
+          box-sizing: border-box;
+          border-bottom: 5px solid $blue;
+        }
+
+        &:hover {
+          cursor: pointer;
+          color: $blue;
+          font-weight: bold;
+  
+          border-bottom: 5px solid $blue;
+        }
+  
+      }
+  }
+
+  &-exceed {
+    .nav-link{
+      padding: 16px;
+      color: $brand-gray-darker;
+
+
+      &.active {
+        color: #f8bb5f;
+        background-color: transparent;
+        border-bottom: 5px solid #f8bb5f;
+      }
+      &:hover {
+        cursor: pointer;
+        color: #f8bb5f;
+        border-bottom: 5px solid #f8bb5f;
+      }
+    }
+  }
 }
+
+
