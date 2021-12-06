@@ -90,14 +90,14 @@
 
 
       &.active {
-        color: #f8bb5f;
+        color: $brand-brown-lighter;
         background-color: transparent;
-        border-bottom: 5px solid #f8bb5f;
+        border-bottom: 5px solid $brand-brown-lighter;
       }
       &:hover {
         cursor: pointer;
-        color: #f8bb5f;
-        border-bottom: 5px solid #f8bb5f;
+        color: $brand-brown-lighter;
+        border-bottom: 5px solid $brand-brown-lighter;
       }
     }
   }
