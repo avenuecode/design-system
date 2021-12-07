@@ -101,6 +101,34 @@
       }
     }
   }
+
+  &-expand {
+    .nav-link {
+
+      font-family: Overpass;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 0.75rem;
+      line-height: 12px;
+      padding: 1rem;
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+
+      &.active {
+        color: $brand-green-light !important;
+        border-bottom: 5px solid $brand-green-light !important;
+        background-color: transparent;
+      }
+
+      &:hover {
+        color: $brand-green-light !important;
+        border-bottom: 5px solid $brand-green-light !important;
+      }
+    }
+  }
 }
 
 
