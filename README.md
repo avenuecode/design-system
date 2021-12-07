@@ -1,4 +1,4 @@
-# @ac-ui/design-system
+# @avenueeco/design-system
 
 A SCSS design system based on Bootstrap, to provide styling and theming to all Avenue Code products
 
@@ -9,18 +9,18 @@ A SCSS design system based on Bootstrap, to provide styling and theming to all A
 4. Lint staged
 
 # Installation
-1. Install as a npm dependency `npm i @ac-ui/design-system.git`
+1. Install as a npm dependency `npm i @avenueeco/design-system.git`
 2. Use within your SCSS
     - Want settings, mixins, extends, with no classes?
-        - `@import "~@ac-ui/design-system/src/base";`
+        - `@import "~@avenueeco/design-system/src/base";`
     - Want access to Bootstrap's grid classes?
         - No need to import the `required` partial!
-        - `@import "~@ac-ui/design-system/src/bridge/grid";`
+        - `@import "~@avenueeco/design-system/src/bridge/grid";`
     - Want to load everything? Please reconsider.
-        - `@import "~@ac-ui/design-system/src";`
+        - `@import "~@avenueeco/design-system/src";`
 3. How about just the styles needed to make the page pretty?
-    - Its hard to say for sure just what you'll need on a page, so `@ac-ui` provides some utility classes and general stylings
-    - `@import "~@ac-ui/design-system/src/page";`
+    - Its hard to say for sure just what you'll need on a page, so `@avenueeco` provides some utility classes and general stylings
+    - `@import "~@avenueeco/design-system/src/page";`
 
 # How do variables get determined?
 - All variables should be declared in the `src/_theme.scss` file
