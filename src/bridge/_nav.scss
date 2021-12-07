@@ -89,7 +89,6 @@
       padding: 16px;
       color: $brand-gray-darker;
 
-
       &.active {
         color: $brand-brown-lighter;
         background-color: transparent;
@@ -116,7 +115,9 @@
       display: flex;
       align-items: center;
       text-align: center;
+      justify-content: center;
       text-transform: uppercase;
+      color: $brand-gray-darker;
 
       &.active {
         color: $brand-green-light !important;
