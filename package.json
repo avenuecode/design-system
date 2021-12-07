@@ -1,5 +1,5 @@
 {
-  "name": "@ac-ui/design-system",
+  "name": "@avenueeco/design-system",
   "private": false,
   "repository": {
     "type": "git",
@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "main": "src/index.scss",
-  "version": "2.0.1",
+  "version": "1.0.0",
   "dependencies": {
     "bootstrap": "4.1.3"
   }
