@@ -104,7 +104,7 @@
 
   &-expand {
     .nav-link {
-      
+
       padding: 16px;
 
       display: flex;
@@ -121,6 +121,7 @@
       }
 
       &:hover {
+        cursor: pointer;
         color: $brand-green-light !important;
         border-bottom: 5px solid $brand-green-light !important;
       }
