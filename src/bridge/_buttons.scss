@@ -67,13 +67,13 @@
 
 .btn.btn-primary {
   &:hover {
-    background-color: #68AEFF;
-    border: 2px solid #68AEFF;
+    background-color: $brand-blue-light;
+    border: 2px solid $brand-blue-light;
   }
   &:focus {
-    background-color: #0095f4;
+    background-color: $blue;
     &:not(.btn-sm) {
-      border: 3px solid #007BCA;
+      border: 3px solid $brand-blue-dark;
       padding: 5px 13px;
     }
   }
@@ -82,22 +82,22 @@
 
 .button-expand {
   color: #fff;
-  background-color: #37c18d;
+  background-color: $green;
   &:hover {
-    background-color: #66DBAA;
+    background-color: $brand-green-light;
     color: #fff;
   }
   &:disabled {
-    background-color: #37c18d;
+    background-color: $green;
   }
   &:active {
-    background-color: #2DA377;
+    background-color: $brand-green-dark;
   }
   &:focus {
-    background-color: #37c18d;
+    background-color: $green;
     &:not(.btn-sm) {
       padding: 5px 13px;
-      border: 3px solid #2DA377;
+      border: 3px solid $brand-green-dark;
     }
     box-shadow: none;
   }
@@ -105,21 +105,21 @@
 
 .button-exceed {
   color: #fff;
-  background-color: #F97A2D;
+  background-color: $orange;
   &:hover {
-    background-color: #FFA56F;
+    background-color: $brand-orange-light;
     color: #fff;
   }
   &:disabled {
-    background-color: #F97A2D;
+    background-color: $orange;
   }
   &:active {
-    background-color: #E55A11;
+    background-color: $brand-orange-dark;
   }
   &:focus {
-    background-color: #F97A2D;
+    background-color: $orange;
     &:not(.btn-sm) {
-      border: 3px solid #E55A11;
+      border: 3px solid $brand-orange-dark;
       padding: 5px 13px;
     }
     box-shadow: none;
