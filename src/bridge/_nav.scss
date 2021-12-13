@@ -27,6 +27,7 @@
 
     &:hover{
       color: darken($brand-gray-light, 10%);
+      cursor: pointer;
       &:after {
         background-color: darken($success, 10%);
       }

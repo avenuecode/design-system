@@ -33,4 +33,4 @@ A SCSS design system based on Bootstrap, to provide styling and theming to all A
 - `src/fonts` -> Baseline font-family, contains css with font-faces styles.
 - `src/theme` -> Baseline theme variables. Product implementation can override.
 - `src/bridge/${FILE_NAME}` -> Act as a bridge file to Bootstrap, add pertinent styles
-    - Each bridge file loads AC-UI Variables, and has access to all Mixins/Functions/Variables
+    - Each bridge file loads Avenue Eco Variables, and has access to all Mixins/Functions/Variables
