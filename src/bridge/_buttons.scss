@@ -179,3 +179,52 @@
     box-shadow: none;
   }
 }
+
+
+.button-outline-engage {
+  background-color: $white;
+  border-color: $blue;
+  color: $blue;
+
+  &:hover {
+    background-color: $blue;
+    border-color: $white;
+    color: $white;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.button-outline-expand {
+  background-color: $white;
+  border-color: $green;
+  color: $green;
+
+  &:hover {
+    background-color: $green;
+    border-color: $white;
+    color: $white;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.button-outline-exceed {
+  background-color: $white;
+  border-color: $orange;
+  color: $orange;
+
+  &:hover {
+    background-color: $orange;
+    border-color: $white;
+    color: $white;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}
