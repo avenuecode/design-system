@@ -1,7 +1,7 @@
 @import "../base";
 @import "~bootstrap/scss/utilities";
 
-// @ac-ui/design-system: Ranges from 1-5
+// @avenueeco/design-system: Ranges from 1-5
 //                       (base font size is 4)
 
 @each $number, $size in $font-sizes {

@@ -6,12 +6,22 @@
 //
 
 .btn {
-  border-radius: ($spacer * 1.5);
-  padding: map-get($spacers, 2) map-get($spacers, 4);
+  border-radius: 8px;
+  padding: 6px 14px;
   border-width: map-get($spacers, 1);
-
+  font-size: 14px;
   &:disabled{
     opacity: 0.25;
+  }
+
+  img {
+    display: inline-block;
+    margin-right: 6px;
+  }
+
+  svg {
+    display: inline-block;
+    margin-right: 6px;
   }
 }
 
@@ -51,5 +61,121 @@
     color: $dark;
     background-color: transparent;
     border-color: $dark;
+  }
+}
+
+
+.btn.btn-primary {
+  &:hover {
+    background-color: $brand-blue-light;
+    border: 2px solid $brand-blue-light;
+  }
+  &:focus {
+    background-color: $blue;
+    &:not(.btn-sm) {
+      border: 3px solid $brand-blue-dark;
+      padding: 5px 13px;
+    }
+  }
+}
+
+
+.button-expand {
+  color: #fff;
+  background-color: $green;
+  &:hover {
+    background-color: $brand-green-light;
+    color: #fff;
+  }
+  &:disabled {
+    background-color: $green;
+  }
+  &:active {
+    background-color: $brand-green-dark;
+  }
+  &:focus {
+    background-color: $green;
+    &:not(.btn-sm) {
+      padding: 5px 13px;
+      border: 3px solid $brand-green-dark;
+    }
+    box-shadow: none;
+  }
+}
+
+.button-exceed {
+  color: #fff;
+  background-color: $orange;
+  &:hover {
+    background-color: $brand-orange-light;
+    color: #fff;
+  }
+  &:disabled {
+    background-color: $orange;
+  }
+  &:active {
+    background-color: $brand-orange-dark;
+  }
+  &:focus {
+    background-color: $orange;
+    &:not(.btn-sm) {
+      border: 3px solid $brand-orange-dark;
+      padding: 5px 13px;
+    }
+    box-shadow: none;
+  }
+}
+
+.btn.btn-secondary {
+  background-color: $white;
+  border: 1px solid $urban-gray-base;
+  box-sizing: border-box;
+  color: $urban-gray-darker;
+  padding: 8px 8px 8px 8px;
+  &:hover {
+    background-color: $urban-gray-lighter;
+  }
+  &:active {
+    border: 1px solid $urban-gray-base;
+    background-color: $urban-gray-light !important;
+  }
+  &:focus {
+    outline: 1px solid $urban-gray-base;
+    background-color: $white;
+    box-shadow: none;
+  }
+}
+
+.button-tertiary {
+  background-color: $urban-gray-lighter;
+  box-sizing: border-box;
+  color: $urban-gray-darker;
+  padding: 8px 8px 8px 8px;
+  &:hover {
+    background-color: $urban-gray-light;
+  }
+  &:active {
+    background-color: $urban-gray-base !important;
+  }
+  &:focus {
+    outline: 1px solid $urban-gray-base;
+    box-shadow: none;
+  }
+}
+
+.button-bordless {
+  background-color: transparent;
+  box-sizing: border-box;
+  color: $urban-gray-darker;
+  padding: 8px 8px 8px 8px;
+  &:hover {
+    background-color: $urban-gray-light;
+  }
+  &:active {
+    background-color: $urban-gray-light;
+  }
+  &:focus {
+    outline: 1px solid $urban-gray-base;
+    box-shadow: none;
   }
 }

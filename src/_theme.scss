@@ -38,12 +38,12 @@ $brand-brown: #aa8b6f !default;
 $brand-brown-dark: #8c725b !default;
 $brand-brown-darker: #705447 !default;
 
-$orange: #f5aa38 !default;
+$orange: #F97A2D !default;
 
 $brand-orange-lighter: #fccc9e !default;
-$brand-orange-light: #fbba6f !default;
-$brand-orange: #f5aa38 !default;
-$brand-orange-dark: #e39d33 !default;
+$brand-orange-light: #FFA56F !default;
+$brand-orange: #F97A2D !default;
+$brand-orange-dark: #E55A11 !default;
 $brand-orange-darker: #d2912f !default;
 
 $red: #ff5166 !default;
@@ -104,7 +104,7 @@ $teal: initial !default;
 $cyan: initial !default;
 
 // Theming colors
-// @ac-ui/design-system: map-merge(map, $colors) must not be defaulted, this allows cascading
+// @avenueeco/design-system: map-merge(map, $colors) must not be defaulted, this allows cascading
 $colors: () !default;
 $colors: map-merge((
   "blue-lighter": $brand-blue-lighter,
@@ -162,7 +162,7 @@ $colors: map-merge((
 ), $colors);
 
 // This variable affects the `.h-*` and `.w-*` classes.
-// @ac-ui/design-system: map-merge(map, $sizes) must not be defaulted, this allows cascading
+// @avenueeco/design-system: map-merge(map, $sizes) must not be defaulted, this allows cascading
 $sizes: () !default;
 $sizes: map-merge((
   10: 10%,
@@ -177,7 +177,7 @@ $sizes: map-merge((
 
 //
 // Spacing
-// @ac-ui/design-system: map-merge(map, $spacers) must not be defaulted, this allows cascading
+// @avenueeco/design-system: map-merge(map, $spacers) must not be defaulted, this allows cascading
 //
 $spacer: 0.5rem !default; // 8px
 $spacers: () !default;

@@ -27,6 +27,7 @@
 
     &:hover{
       color: darken($brand-gray-light, 10%);
+      cursor: pointer;
       &:after {
         background-color: darken($success, 10%);
       }
@@ -104,13 +105,9 @@
 
   &-expand {
     .nav-link {
-
-      font-family: Overpass;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 0.75rem;
+      padding: 16px;
       line-height: 12px;
-      padding: 1rem;
+
 
       display: flex;
       align-items: center;
@@ -126,6 +123,7 @@
       }
 
       &:hover {
+        cursor: pointer;
         color: $brand-green-light !important;
         border-bottom: 5px solid $brand-green-light !important;
       }
