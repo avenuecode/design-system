@@ -228,3 +228,23 @@
     box-shadow: none;
   }
 }
+
+.btn.btn-danger {
+
+  color: $white;
+  background-color: $red;
+  border-color: $red;
+
+  &:hover {
+    color: $white;
+    background-color: $brand-red-light;
+    border-color: $brand-red-light;
+  }
+
+  &:focus {
+    color: $white;
+    background-color: $red;
+    border-color: $red;
+  }
+  
+}
