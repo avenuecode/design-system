@@ -107,7 +107,7 @@
     .nav-link {
       padding: 16px;
       line-height: 12px;
-      font-size: 12px;
+      font-size: 18px;
       font-weight: bold;
 
       display: flex;
@@ -121,7 +121,7 @@
       &.active {
         color: $brand-green-dark !important;
         border-bottom: 3px solid $brand-green-dark !important;
-        background-color: $brand-green-light;
+        background-color: rgba($brand-green-light, 0.5);;
         padding-bottom: 13px
       }
 
@@ -136,3 +136,8 @@
 }
 
 
+.tab-sm {
+  .nav-tabs-expand .nav-item .nav-link{
+    font-size: 12px;
+  }
+}
