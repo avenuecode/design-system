@@ -107,7 +107,8 @@
     .nav-link {
       padding: 16px;
       line-height: 12px;
-
+      font-size: 12px;
+      font-weight: bold;
 
       display: flex;
       align-items: center;
@@ -115,17 +116,22 @@
       justify-content: center;
       text-transform: uppercase;
       color: $brand-gray-darker;
+      box-sizing: border-box;
+      width: 85px;
+      height: 44px;
 
       &.active {
-        color: $brand-green-light !important;
-        border-bottom: 5px solid $brand-green-light !important;
-        background-color: transparent;
+        color: $brand-green-lighter !important;
+        border-bottom: 3px solid $brand-green-lighter !important;
+        background-color: $brand-green-light;
+        padding-bottom: 13px
       }
 
       &:hover {
         cursor: pointer;
-        color: $brand-green-light !important;
-        border-bottom: 5px solid $brand-green-light !important;
+        color: $brand-green-lighter !important;
+        border-bottom: 3px solid $brand-green-lighter !important;
+        padding-bottom: 13px
       }
     }
   }
