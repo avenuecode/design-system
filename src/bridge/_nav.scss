@@ -117,20 +117,18 @@
       text-transform: uppercase;
       color: $brand-gray-darker;
       box-sizing: border-box;
-      width: 85px;
-      height: 44px;
 
       &.active {
-        color: $brand-green-lighter !important;
-        border-bottom: 3px solid $brand-green-lighter !important;
+        color: $brand-green-dark !important;
+        border-bottom: 3px solid $brand-green-dark !important;
         background-color: $brand-green-light;
         padding-bottom: 13px
       }
 
       &:hover {
         cursor: pointer;
-        color: $brand-green-lighter !important;
-        border-bottom: 3px solid $brand-green-lighter !important;
+        color: $brand-green-dark !important;
+        border-bottom: 3px solid $brand-green-dark !important;
         padding-bottom: 13px
       }
     }
