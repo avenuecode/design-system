@@ -87,28 +87,28 @@
 
   &-exceed {
     .nav-link{
-      padding: 16px;
+      padding: 8px;
       color: $brand-gray-darker;
-
+      font-size: 16px;
+      text-transform: uppercase;
       &.active {
-        color: $brand-brown-lighter;
-        background-color: transparent;
-        border-bottom: 5px solid $brand-brown-lighter;
+        color: $brand-orange-dark;
+        font-weight: bold;
+        background-color: rgba($brand-orange-lighter, 0.5);;
+        border-bottom: 5px solid $brand-orange-dark;
       }
       &:hover {
         cursor: pointer;
-        color: $brand-brown-lighter;
-        border-bottom: 5px solid $brand-brown-lighter;
+        color: $brand-orange-dark;
+        border-bottom: 5px solid $brand-orange-dark;
       }
     }
   }
 
   &-expand {
     .nav-link {
-      padding: 16px;
-      line-height: 12px;
-      font-size: 18px;
-      font-weight: bold;
+      padding: 8px;
+      font-size: 16px;
 
       display: flex;
       align-items: center;
@@ -120,16 +120,15 @@
 
       &.active {
         color: $brand-green-dark !important;
-        border-bottom: 3px solid $brand-green-dark !important;
+        font-weight: bold;
+        border-bottom: 5px solid $brand-green-dark !important;
         background-color: rgba($brand-green-light, 0.5);;
-        padding-bottom: 13px
       }
 
       &:hover {
         cursor: pointer;
         color: $brand-green-dark !important;
-        border-bottom: 3px solid $brand-green-dark !important;
-        padding-bottom: 13px
+        border-bottom: 5px solid $brand-green-dark !important;
       }
     }
   }
@@ -137,7 +136,12 @@
 
 
 .tab-sm {
-  .nav-tabs-expand .nav-item .nav-link{
-    font-size: 12px;
+  .nav-tabs-expand .nav-item {
+    min-width: 100px;
+    .nav-link{
+      font-size: 12px;
+      line-height: 12px;
+      padding: 16px 16px 13px 16px;
+    }
   }
 }
