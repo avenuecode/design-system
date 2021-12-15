@@ -1,15 +1,45 @@
 .ac-side-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 224px; // should adjust with itens size
-    height: 100vh;
-    padding: 24px 16px;
+    width: 300px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 64px;
+    height: calc(100vh - 64px);
+    overflow-x: hidden;
+    overflow-y: auto;
   
-    background: #fff;
-  
-    border-right: 1px solid $urban-gray-light;
+    &-item.active.exceed {
+      background: #ffe3d2;
+      img {
+        filter: invert(99%) sepia(94%) saturate(7449%) hue-rotate(25deg) brightness(87%) contrast(60%);
+      }
+    }
+    &-item-text.exceed:hover {
+      color: $brand-orange-darker;
+    }
+    &-item-text-active.exceed {
+      color: #cc4600;
+    }
+    &-item-text-active.exceed:hover {
+      color: #cc4600;
+    }
+    &-item.active.expand {
+      background: #b5efd3;
+    }
+    &-item-text.expand:hover {
+      color: #238661;
+    }
+    &-item-text-active.expand {
+      color: #238661;
+    }
+    &-item.active.nexus {
+      background: $brand-gray-lighter;
+    }
+    &-item-text.nexus:hover {
+      color: $brand-gray-dark;
+    }
+    &-item-text-active.nexus {
+      color: $brand-gray-darker;
+    }    
   
     &-category {
       display: flex;
