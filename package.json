@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "main": "src/index.scss",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "dependencies": {
     "bootstrap": "4.1.3"
   }
