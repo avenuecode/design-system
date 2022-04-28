@@ -19,36 +19,6 @@
     justify-content: center;
     align-items: flex-end;
   }
-
-  .nav-link {
-    color: $brand-gray-light;
-    border: transparent;
-    padding: 0;
-
-    &:hover{
-      color: darken($brand-gray-light, 10%);
-      cursor: pointer;
-      &:after {
-        background-color: darken($success, 10%);
-      }
-    }
-
-    &.disabled {
-      color: $text-muted;
-      background-color: transparent;
-      border-color: transparent;
-      &:after {
-        display: none;
-      }
-    }
-  }
-
-  .nav-link.active,
-  .nav-item.show .nav-link {
-    color: $success;
-    background-color: transparent;
-    border-color: transparent;
-  }
 }
 
 
